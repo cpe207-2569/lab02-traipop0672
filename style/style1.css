@@ -51,7 +51,7 @@ ul li a{
 .page{
     display: flex;
     gap: 100px;
-    /* align-items:flex-start; */
+    margin-bottom: 100px;
 }
 .page30{
     display: flex;
