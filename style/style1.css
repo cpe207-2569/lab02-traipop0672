@@ -51,12 +51,13 @@ ul li a{
 .page{
     display: flex;
     gap: 100px;
+    /* align-items:flex-start; */
 }
 .page30{
     display: flex;
     flex-direction: column;
     width: 30%;
-    justify-content: end;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
 }
@@ -122,14 +123,14 @@ ul li a{
 }
 
 .exp-f1{
-    margin-top: 50px;
+    margin-top: 40px;
     border: 2px;
     border-radius: 30px;
     background-color: #2D3A3F;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
     color: white;    
     width: 95%;
-    height: 38%;
+    height: 28%;    
     text-align: left;
 }
 
@@ -141,7 +142,19 @@ ul li a{
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
     color: white;    
     width: 95%;
-    height: 45%;
+    height: 30%;
+    text-align: left;
+}
+
+.exp-hob{
+    margin-top: 50px;
+    border: 2px;
+    border-radius: 30px;
+    background-color: #2D3A3F;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
+    color: white;    
+    width: 95%;
+    height: 25%;
     text-align: left;
 }
 
